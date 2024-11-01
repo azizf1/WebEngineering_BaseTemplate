@@ -139,9 +139,7 @@ try {
 }
 ```
 
-## Identified Improvement and Solution
-
-### Improved UI Update Efficiency
+# Improved UI Update Efficiency
 
 **Problem:**  
 In the original code, the DOM was updated with each entry in a loop by appending to `innerHTML`. This approach causes repeated re-renders, which can slow down the UI and impact performance, particularly when handling multiple entries.
